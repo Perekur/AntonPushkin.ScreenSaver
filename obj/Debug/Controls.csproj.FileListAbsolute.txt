@@ -1,0 +1,17 @@
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\bin\Debug\Controls.exe.config
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Clock.baml
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Clock.g.cs
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\App.g.cs
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls_MarkupCompile.cache
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls_MarkupCompile.lref
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\bin\Debug\Controls.exe
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\bin\Debug\Controls.pdb
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls.g.resources
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls.Properties.Resources.resources
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls.exe
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls.pdb
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\ScreenSaver.g.cs
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\ScreenSaver.baml
+C:\Users\Home\Dropbox\PrismWPF\ParrallelAdminWPF\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache

@@ -1,0 +1,61 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local ="clr-namespace:СlockScreenSaver"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="СlockScreenSaver.ScreenSaver"
+        WindowStyle="None"
+        AllowsTransparency="True"        
+        Background="Black"
+        PreviewMouseDown="Window_PreviewMouseDown"
+        PreviewKeyDown="Window_PreviewKeyDown"
+        ShowInTaskbar="false"
+        Title="MainWindow" Height="400" Width="600">
+    <Window.Resources>
+
+        <!-- 3D -->
+        <!-- ClockVisualBrush -->
+        <VisualBrush x:Key="ClockVisualBrush" Visual="{Binding ElementName=Clock}"/>
+
+        <!-- ReflectOpacityMask -->
+        <LinearGradientBrush x:Key="ReflectOpacityMask" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Offset="0.3" Color="Transparent"/>
+            <GradientStop Offset="1" Color="#44000000"/>
+        </LinearGradientBrush>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0"/>
+        </Grid.RowDefinitions>
+
+        <!-- Clock -->
+        <local:Clock x:Name="Clock" VerticalAlignment="Center" Margin="100" Foreground="Red"/>
+
+        <!--<local:SnowCrystall TimeOffset="00:00:01.321" Height="40" Width="40" Margin="924,518,60,170" />
+        <local:SnowCrystall TimeOffset="00:00:03.945" Height="40" Width="40" Margin="766,494,218,194" />
+        <local:SnowCrystall TimeOffset="00:00:05.951" Height="40" Width="40" Margin="252,538,732,150" />
+        <local:SnowCrystall TimeOffset="00:00:07.356" Height="40" Width="40" Margin="100,518,884,170" />
+        <local:SnowCrystall TimeOffset="00:00:09.727" Height="40" Width="40" Margin="624,60,360,628" />
+        <local:SnowCrystall TimeOffset="00:00:11.654" Height="40" Width="40" Margin="386,55,598,633" />
+        <local:SnowCrystall TimeOffset="00:00:13.769" Height="40" Width="40" Margin="836,384,148,304" />
+        <local:SnowCrystall TimeOffset="00:00:15.168" Height="40" Width="40" Margin="156,384,828,304" />
+        <local:SnowCrystall TimeOffset="00:00:17.028" Height="40" Width="40" Margin="946,318,38,370" />
+        <local:SnowCrystall TimeOffset="00:00:19.328" Height="40" Width="40" Margin="836,236,148,452" />
+        <local:SnowCrystall TimeOffset="00:00:21.229" Height="40" Width="40" Margin="100,256,884,432" />
+        <local:SnowCrystall TimeOffset="00:00:23.412" Height="40" Width="40" Margin="204,120,780,568" />
+        <local:SnowCrystall TimeOffset="00:00:25.567" Height="40" Width="40" Margin="929,120,55,568" />
+        <local:SnowCrystall TimeOffset="00:00:27.629" Height="40" Width="40" Margin="55,68,929,620" />-->        
+
+        <!-- Reflection -->
+        <!--<Rectangle Fill="{StaticResource ClockVisualBrush}" OpacityMask="{StaticResource ReflectOpacityMask}" Grid.Row="1">
+            <Rectangle.LayoutTransform>
+                <ScaleTransform ScaleY="-0.3"/>
+            </Rectangle.LayoutTransform>
+        </Rectangle>-->
+    </Grid>
+</Window>
+
+    
+    
